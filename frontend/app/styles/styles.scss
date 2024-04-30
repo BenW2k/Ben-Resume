@@ -2,3 +2,8 @@
 
 $base_background_colour: rgba(24, 24, 27, 255);
 $base_font: Kanetin, sans-serif;
+
+body {
+  background-color: $base_background_colour;
+  font-family: $base_font;
+}

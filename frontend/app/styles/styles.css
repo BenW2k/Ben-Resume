@@ -1,1 +1,5 @@
-@import url("../assets/fonts/Kanetin.otf");/*# sourceMappingURL=styles.css.map */
+@import url("../assets/fonts/Kanetin.otf");
+body {
+  background-color: rgb(24, 24, 27);
+  font-family: Kanetin, sans-serif;
+}/*# sourceMappingURL=styles.css.map */
