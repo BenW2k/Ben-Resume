@@ -1,1 +1,4 @@
-/*# sourceMappingURL=NavBar.module.css.map */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=NavBar.module.css.map */
