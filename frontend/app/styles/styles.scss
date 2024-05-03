@@ -1,12 +1,10 @@
-@font-face {
-  font-family: "Kanetin";
-  src: url("../assets/fonts/Kanetin.otf");
-}
-
-$base_background_colour: rgba(24, 24, 27, 255);
-$base_font: Kanetin, sans-serif;
+@use "variables";
 
 body {
-  background-color: $base_background_colour;
-  font-family: $base_font;
+  background-color: variables.$base_background_colour;
+  font-family: variables.$base_font;
+}
+
+a {
+  text-decoration: none;
 }

@@ -2,7 +2,15 @@
   font-family: "Kanetin";
   src: url("../assets/fonts/Kanetin.otf");
 }
+@font-face {
+  font-family: "Inter-Light";
+  src: url("../assets/fonts/Inter-Light.ttf");
+}
 body {
   background-color: rgb(24, 24, 27);
-  font-family: Kanetin, sans-serif;
+  font-family: Inter-Light, sans-serif;
+}
+
+a {
+  text-decoration: none;
 }/*# sourceMappingURL=styles.css.map */
