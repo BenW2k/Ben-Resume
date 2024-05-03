@@ -1,4 +1,43 @@
+@font-face {
+  font-family: "Kanetin";
+  src: url("../assets/fonts/Kanetin.otf");
+}
+@font-face {
+  font-family: "Inter-Light";
+  src: url("../assets/fonts/Inter-Light.ttf");
+}
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 5vh;
+  width: 100%;
+  padding: 10px 20px 0px 20px;
+}
+
+.night-main-logo {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 5vh;
+  height: auto;
+}
+
+.nav-links {
+  width: 50%;
+  justify-content: center;
+}
+.nav-links a {
+  padding: 0px 25px;
+  color: #ffffff;
+  font-weight: 100;
+}
+
+.night-mode-moon {
+  height: 40px;
+  width: auto;
+}
+
+.night-mode-button {
+  background-color: transparent;
+  outline: none;
 }/*# sourceMappingURL=NavBar.module.css.map */
