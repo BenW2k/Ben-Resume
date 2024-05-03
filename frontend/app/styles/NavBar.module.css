@@ -6,13 +6,17 @@
   font-family: "Inter-Light";
   src: url("../assets/fonts/Inter-Light.ttf");
 }
+@font-face {
+  font-family: "Inter-Medium";
+  src: url("../assets/fonts/Inter-Medium.ttf");
+}
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 5vh;
   width: 100%;
-  padding: 10px 20px 0px 20px;
+  padding: 3px 20px 0px 20px;
 }
 
 .night-main-logo {
@@ -23,21 +27,46 @@
 }
 
 .nav-links {
+  display: flex;
   width: 50%;
   justify-content: center;
 }
 .nav-links a {
-  padding: 0px 25px;
+  padding: 0px 40px;
   color: #ffffff;
   font-weight: 100;
+  font-size: 18px;
 }
 
-.night-mode-moon {
-  height: 40px;
-  width: auto;
+.navbar-icons {
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+  padding-right: 20px;
+  align-items: center;
 }
 
 .night-mode-button {
   background-color: transparent;
-  outline: none;
+  border-radius: 30px;
+  padding: 18px 30px 18px 30px;
+  border: 1px rgba(255, 255, 255, 0.568627451) solid;
+}
+.night-mode-button .night-mode-moon {
+  height: 20px;
+  width: auto;
+  color: white;
+}
+
+.nav-button {
+  padding: 18px 30px 18px 30px;
+  border-radius: 60px;
+  background-color: rgb(255, 255, 255);
+}
+.nav-button span {
+  font-family: Inter-Light, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: black;
+  opacity: 1;
 }/*# sourceMappingURL=NavBar.module.css.map */

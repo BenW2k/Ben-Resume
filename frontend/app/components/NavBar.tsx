@@ -3,6 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import {NavDropdown} from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
+import Button from "react-bootstrap/Button";
+import {IoMoonOutline} from "react-icons/io5";
 import darkModeIcon from "../assets/img/moon-dark-theme.svg";
 import darkModeLogo from "../assets/img/figma-logo-white.svg";
 
@@ -24,23 +26,19 @@ export const Navbar = () => {
           target="_blank"
           rel="noreferrer"
         >
-          LinkedIn
+          LinkedIn ↗
         </Link>
         <Link href="https://github.com/benw2k" target="_blank" rel="noreferrer">
-          GitHub
+          GitHub ↗
         </Link>
       </Nav>
-      <div className="navbar-icons">
-        <button className={styles["night-mode-button"]}>
-          <Image
-            src={darkModeIcon}
-            alt="dark-mode-toggle-icon"
-            className={styles["night-mode-moon"]}
-          />
-        </button>
-        <button className="nav-button">
-          <span>Contact</span>
-        </button>
+      <div className={styles["navbar-icons"]}>
+        <Button className={styles["night-mode-button"]}>
+          <IoMoonOutline className={styles["night-mode-moon"]} />
+        </Button>
+        <Button href="/contact" className={styles["nav-button"]}>
+          <span>Contact Me ↗</span>
+        </Button>
       </div>
     </div>
   );

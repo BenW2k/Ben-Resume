@@ -6,7 +6,7 @@
   align-items: center;
   height: 5vh;
   width: 100%;
-  padding: 10px 20px 0px 20px;
+  padding: 3px 20px 0px 20px;
 }
 
 .night-main-logo {
@@ -16,20 +16,46 @@
 }
 
 .nav-links {
+  display: flex;
   width: 50%;
   justify-content: center;
   a {
-    padding: 0px 25px;
+    padding: 0px 40px;
     color: variables.$base_font_colour;
     font-weight: 100;
+    font-size: 18px;
+  }
+}
+.navbar-icons {
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+  padding-right: 20px;
+  align-items: center;
+}
+
+.night-mode-button {
+  background-color: transparent;
+  border-radius: 30px;
+  padding: 18px 30px 18px 30px;
+  border: 1px #ffffff91 solid;
+
+  .night-mode-moon {
+    height: 20px;
+    width: auto;
+    color: white;
   }
 }
 
-.night-mode-moon {
-  height: 40px;
-  width: auto;
-}
-.night-mode-button {
-  background-color: transparent;
-  outline: none;
+.nav-button {
+  padding: 18px 30px 18px 30px;
+  border-radius: 60px;
+  span {
+    font-family: variables.$base_font;
+    font-weight: 600;
+    font-size: 18px;
+    color: black;
+    opacity: 1;
+  }
+  background-color: rgb(255, 255, 255);
 }
