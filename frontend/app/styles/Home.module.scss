@@ -9,7 +9,7 @@
   gap: 10px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(7, 1fr);
-  margin: 10px 20px 10px 20px;
+  margin: 50px 20px 10px 20px;
 }
 
 .home-title {
@@ -28,4 +28,12 @@
   grid-row: 3 / 4;
   color: variables.$base_font_colour;
   font-weight: 500;
+}
+
+.skills-panel {
+  grid-column: 3 / 4;
+  grid-row: 3 / 7;
+  background-color: #252427;
+  border: 1px rgba(255, 255, 255, 0.103) solid;
+  border-radius: 20px;
 }
