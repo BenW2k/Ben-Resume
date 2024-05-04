@@ -1,1 +1,31 @@
+@use "variables";
 
+.home-grid {
+  display: grid;
+  position: relative;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  margin: 10px 20px 10px 20px;
+}
+
+.home-title {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-family: variables.$base_font;
+  font-size: 64px;
+  font-weight: 400;
+  color: variables.$base_font_colour;
+}
+
+.home-subtitle {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  color: variables.$base_font_colour;
+  font-weight: 500;
+}
