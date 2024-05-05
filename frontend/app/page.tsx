@@ -2,6 +2,9 @@ import styles from "./styles/home.module.css";
 import Image from "next/image";
 import CreateSkill from "./components/skills-panel";
 import darkModeLogo from "./assets/img/figma-logo-white.svg";
+import frontendDark from "./assets/img/frontend-dark.svg";
+import frontendLight from "./assets/img/frontend-light.svg";
+import backendLight from "./assets/img/backend-light.svg";
 
 export default function Home() {
   return (
@@ -19,8 +22,28 @@ export default function Home() {
       <div className={styles["skills-panel"]}>
         <CreateSkill
           skillName="test"
-          skillCategory="category"
-          imageSource={darkModeLogo}
+          skillCategory="Frontend"
+          imageSource={frontendLight}
+        />
+        <CreateSkill
+          skillName="test2"
+          skillCategory="Backend"
+          imageSource={backendLight}
+        />
+        <CreateSkill
+          skillName="test3"
+          skillCategory="Machine Learning"
+          imageSource={backendLight}
+        />
+        <CreateSkill
+          skillName="test4"
+          skillCategory="Data Science"
+          imageSource={backendLight}
+        />
+        <CreateSkill
+          skillName="test5"
+          skillCategory="Other"
+          imageSource={backendLight}
         />
       </div>
     </div>
