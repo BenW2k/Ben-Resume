@@ -2,9 +2,16 @@ import styles from "./styles/home.module.css";
 import Image from "next/image";
 import CreateSkill from "./components/skills-panel";
 import darkModeLogo from "./assets/img/figma-logo-white.svg";
-import frontendDark from "./assets/img/frontend-dark.svg";
 import frontendLight from "./assets/img/frontend-light.svg";
+import frontendDark from "./assets/img/frontend-dark.svg";
 import backendLight from "./assets/img/backend-light.svg";
+import backendDark from "./assets/img/backend-dark.svg";
+import machinelearningLight from "./assets/img/machine-learning-light.svg";
+import machinelearningDark from "./assets/img/machine-learning-dark.svg";
+import datascienceLight from "./assets/img/data.svg";
+import datascienceDark from "./assets/img/backend-light.svg";
+import otherLight from "./assets/img/frontend-light.svg";
+import otherDark from "./assets/img/backend-light.svg";
 
 export default function Home() {
   return (
@@ -33,7 +40,7 @@ export default function Home() {
         <CreateSkill
           skillName="test3"
           skillCategory="Machine Learning"
-          imageSource={backendLight}
+          imageSource={"./assets/img/machine-learning-dark.svg"}
         />
         <CreateSkill
           skillName="test4"
