@@ -1,5 +1,7 @@
 import styles from "./styles/home.module.css";
 import Image from "next/image";
+import CreateSkill from "./components/skills-panel";
+import darkModeLogo from "./assets/img/figma-logo-white.svg";
 
 export default function Home() {
   return (
@@ -13,8 +15,14 @@ export default function Home() {
         delectus iusto asperiores, sapiente alias fuga eum officia. Praesentium
         repudiandae non accusamus, explicabo cupiditate quis!
       </p>
-      <div className="panel-1"></div>
-      <div className="skills-panel"></div>
+      {/* <div className="panel-1"></div> */}
+      <div className={styles["skills-panel"]}>
+        <CreateSkill
+          skillName="test"
+          skillCategory="category"
+          imageSource={darkModeLogo}
+        />
+      </div>
     </div>
   );
 }
