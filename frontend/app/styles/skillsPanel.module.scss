@@ -1,1 +1,27 @@
-@use "Variables";
+@use "variables";
+
+.tablet-container {
+  display: grid;
+  max-height: 95px;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 2fr, 3fr);
+}
+
+.skill-icon {
+  height: 60px;
+  width: auto;
+  grid-column: 2 / 4;
+  grid-row: 2 / 4;
+}
+
+.skill-title {
+  grid-column: 5 / 8;
+  grid-row: 2 / 3;
+  color: variables.$base_font_colour;
+}
+
+.skill-category {
+  grid-column: 5 / 8;
+  grid-row: 3 / 4;
+  color: variables.$secondary_font_colour;
+}

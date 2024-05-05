@@ -9,4 +9,29 @@
 @font-face {
   font-family: "Inter-Medium";
   src: url("../assets/fonts/Inter-Medium.ttf");
+}
+.tablet-container {
+  display: grid;
+  max-height: 95px;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 2fr, 3fr);
+}
+
+.skill-icon {
+  height: 60px;
+  width: auto;
+  grid-column: 2/4;
+  grid-row: 2/4;
+}
+
+.skill-title {
+  grid-column: 5/8;
+  grid-row: 2/3;
+  color: #ffffff;
+}
+
+.skill-category {
+  grid-column: 5/8;
+  grid-row: 3/4;
+  color: rgba(255, 255, 255, 0.3137254902);
 }/*# sourceMappingURL=skillsPanel.module.css.map */
