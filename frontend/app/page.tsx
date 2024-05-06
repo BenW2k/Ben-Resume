@@ -11,7 +11,7 @@ import machinelearningDark from "./assets/img/machine-learning-dark.svg";
 import datascienceLight from "./assets/img/data-science-light.svg";
 import datascienceDark from "./assets/img/data-science-dark.svg";
 import otherLight from "./assets/img/other-light.png";
-import otherDark from "./assets/img/backend-light.svg";
+import otherDark from "./assets/img/other-dark.svg";
 
 export default function Home() {
   return (
@@ -25,7 +25,6 @@ export default function Home() {
         delectus iusto asperiores, sapiente alias fuga eum officia. Praesentium
         repudiandae non accusamus, explicabo cupiditate quis!
       </p>
-      {/* <div className="panel-1"></div> */}
       <div className={styles["skills-panel"]}>
         <CreateSkill
           skillName="test"
@@ -53,6 +52,7 @@ export default function Home() {
           imageSource={otherLight}
         />
       </div>
+      <div className={styles["current-work"]}></div>
     </div>
   );
 }
