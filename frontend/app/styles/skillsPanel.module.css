@@ -36,4 +36,13 @@
   grid-column: 5/13;
   grid-row: 4/5;
   color: rgba(255, 255, 255, 0.3137254902);
+}
+
+.see-more-button {
+  grid-column: 16/20;
+  grid-row: 6/8;
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  color: #ffffff;
 }/*# sourceMappingURL=skillsPanel.module.css.map */
