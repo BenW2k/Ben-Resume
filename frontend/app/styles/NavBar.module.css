@@ -21,7 +21,7 @@
 
 .night-main-logo {
   -o-object-fit: contain;
-  object-fit: contain;
+     object-fit: contain;
   width: 5vh;
   height: auto;
 }
@@ -69,4 +69,4 @@
   font-size: 18px;
   color: black;
   opacity: 1;
-} /*# sourceMappingURL=NavBar.module.css.map */
+}/*# sourceMappingURL=navBar.module.css.map */
