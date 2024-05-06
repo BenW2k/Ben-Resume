@@ -28,3 +28,12 @@
   grid-row: 4 / 5;
   color: variables.$secondary_font_colour;
 }
+
+.see-more-button {
+  grid-column: 16 / 20;
+  grid-row: 6 / 8;
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  color: variables.$base_font_colour;
+}
