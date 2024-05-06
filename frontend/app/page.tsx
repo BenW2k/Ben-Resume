@@ -8,9 +8,9 @@ import backendLight from "./assets/img/backend-light.svg";
 import backendDark from "./assets/img/backend-dark.svg";
 import machinelearningLight from "./assets/img/machine-learning-light.svg";
 import machinelearningDark from "./assets/img/machine-learning-dark.svg";
-import datascienceLight from "./assets/img/data.svg";
-import datascienceDark from "./assets/img/backend-light.svg";
-import otherLight from "./assets/img/frontend-light.svg";
+import datascienceLight from "./assets/img/data-science-light.svg";
+import datascienceDark from "./assets/img/data-science-dark.svg";
+import otherLight from "./assets/img/other-light.png";
 import otherDark from "./assets/img/backend-light.svg";
 
 export default function Home() {
@@ -40,17 +40,17 @@ export default function Home() {
         <CreateSkill
           skillName="test3"
           skillCategory="Machine Learning"
-          imageSource={"./assets/img/machine-learning-dark.svg"}
+          imageSource={machinelearningLight}
         />
         <CreateSkill
           skillName="test4"
           skillCategory="Data Science"
-          imageSource={backendLight}
+          imageSource={datascienceLight}
         />
         <CreateSkill
           skillName="test5"
           skillCategory="Other"
-          imageSource={backendLight}
+          imageSource={otherLight}
         />
       </div>
     </div>
