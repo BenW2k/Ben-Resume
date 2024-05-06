@@ -52,7 +52,8 @@ export default function Home() {
           imageSource={otherLight}
         />
       </div>
-      <div className={styles["current-work"]}></div>
+      <div className={styles["wip-panel"]}>WIP</div>
+      <div className={styles["current-work"]}>Hello</div>
     </div>
   );
 }
