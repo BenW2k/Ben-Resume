@@ -55,16 +55,15 @@ export default function Home() {
       </div>
       <div className={styles["wip-panel"]}>WIP</div>
       <div className={styles["current-work"]}>
-        <div className={styles["current-section"]}>
+        <div className={styles["current-title-section"]}>
           <h1 className={styles["current-title"]}>Currently working on:</h1>
         </div>
-        <div className={styles["current-section"]}>
+        <div className={styles["current-text-section"]}>
           {" "}
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque qui
-          delectus iusto asperiores, sapiente alias fuga eum officia.
-          Praesentium repudiandae non accusamus, explicabo cupiditate quis!{" "}
+          Current focus: Full stack habit-tracking application using Java and
+          Next.js
         </div>
-        <div className={styles["current-section"]}>
+        <div className={styles["current-text-section"]}>
           <Button className={styles["current-work-button"]}>See More! ↗</Button>
         </div>
       </div>
