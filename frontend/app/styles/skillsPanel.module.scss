@@ -18,8 +18,8 @@
 }
 
 .skill-title {
-  grid-column: 5 / 8;
-  grid-row: 2 / 3;
+  grid-column: 5 / 15;
+  grid-row: 3 / 4;
   color: variables.$base_font_colour;
 }
 
@@ -31,9 +31,9 @@
 
 .see-more-button {
   grid-column: 16 / 20;
-  grid-row: 6 / 8;
+  grid-row: 5 / 7;
   border: none;
   background-color: transparent;
-  font-size: 14px;
+  font-size: 30px;
   color: variables.$base_font_colour;
 }
