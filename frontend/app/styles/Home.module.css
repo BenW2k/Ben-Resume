@@ -67,4 +67,18 @@
   background-color: #252427;
   border: 1px rgba(255, 255, 255, 0.103) solid;
   border-radius: 20px;
+}
+
+.current-section {
+  height: 33%;
+  font-family: Inter-Light, sans-serif;
+  color: #ffffff;
+}
+
+.current-work-button {
+  padding: 20px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  justify-content: center;
+  text-align: center;
 }/*# sourceMappingURL=Home.module.css.map */
