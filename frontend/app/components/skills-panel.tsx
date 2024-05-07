@@ -18,8 +18,8 @@ export default function CreateSkill(props: SkillProps) {
         className={styles["skill-icon"]}
       />
       <p className={styles["skill-title"]}>{skillName}</p>
-      <p className={styles["skill-category"]}>{skillCategory}</p>
-      <button className={styles["see-more-button"]}>View ↗</button>
+      {/* <p className={styles["skill-category"]}>{skillCategory}</p> */}
+      {/* <button className={styles["see-more-button"]}>↘</button> */}
     </div>
   );
 }
