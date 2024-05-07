@@ -53,7 +53,7 @@
   grid-template-rows: repeat(5, 1fr);
 }
 
-.wip-panel {
+.testimonial-panel {
   grid-column: 4/5;
   grid-row: 2/4;
   background-color: #252427;
@@ -108,4 +108,4 @@
   color: #ffffff;
   font-size: 18px;
   font-weight: 500;
-}/*# sourceMappingURL=Home.module.css.map */
+}/*# sourceMappingURL=home.module.css.map */
