@@ -2,6 +2,7 @@ import styles from "./styles/home.module.css";
 import Image from "next/image";
 import Button from "react-bootstrap/Button";
 import CreateSkill from "./components/skills-panel";
+import {Testimonial} from "./components/testimonial-panel";
 import darkModeLogo from "./assets/img/figma-logo-white.svg";
 import frontendLight from "./assets/img/frontend-light.svg";
 import frontendDark from "./assets/img/frontend-dark.svg";
@@ -53,7 +54,9 @@ export default function Home() {
           imageSource={otherLight}
         />
       </div>
-      <div className={styles["testimonial-panel"]}>wip</div>
+      <div className={styles["testimonial-panel"]}>
+        <Testimonial />
+      </div>
       <div className={styles["current-work"]}>
         <div className={styles["current-title-section"]}>
           <h1 className={styles["current-title"]}>Currently working on:</h1>
