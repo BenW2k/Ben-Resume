@@ -1,5 +1,6 @@
 import styles from "./styles/home.module.css";
 import Image from "next/image";
+import Button from "react-bootstrap/Button";
 import CreateSkill from "./components/skills-panel";
 import darkModeLogo from "./assets/img/figma-logo-white.svg";
 import frontendLight from "./assets/img/frontend-light.svg";
@@ -27,33 +28,46 @@ export default function Home() {
       </p>
       <div className={styles["skills-panel"]}>
         <CreateSkill
-          skillName="test"
+          skillName="Frontend Development"
           skillCategory="Frontend"
           imageSource={frontendLight}
         />
         <CreateSkill
-          skillName="test2"
+          skillName="Backend Development"
           skillCategory="Backend"
           imageSource={backendLight}
         />
         <CreateSkill
-          skillName="test3"
+          skillName="Machine Learning"
           skillCategory="Machine Learning"
           imageSource={machinelearningLight}
         />
         <CreateSkill
-          skillName="test4"
+          skillName="Data Science"
           skillCategory="Data Science"
           imageSource={datascienceLight}
         />
         <CreateSkill
-          skillName="test5"
+          skillName="Other Skills"
           skillCategory="Other"
           imageSource={otherLight}
         />
       </div>
       <div className={styles["wip-panel"]}>WIP</div>
-      <div className={styles["current-work"]}>Hello</div>
+      <div className={styles["current-work"]}>
+        <div className={styles["current-section"]}>
+          <h1 className={styles["current-title"]}>Currently working on:</h1>
+        </div>
+        <div className={styles["current-section"]}>
+          {" "}
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque qui
+          delectus iusto asperiores, sapiente alias fuga eum officia.
+          Praesentium repudiandae non accusamus, explicabo cupiditate quis!{" "}
+        </div>
+        <div className={styles["current-section"]}>
+          <Button className={styles["current-work-button"]}>See More! ↗</Button>
+        </div>
+      </div>
     </div>
   );
 }
