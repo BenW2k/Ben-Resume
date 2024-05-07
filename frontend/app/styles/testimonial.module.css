@@ -1,1 +1,6 @@
-/*# sourceMappingURL=testimonial.module.css.map */
+.container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+}/*# sourceMappingURL=testimonial.module.css.map */
