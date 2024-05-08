@@ -15,7 +15,9 @@
   margin: 0px 10px 0px 10px;
   grid-template-rows: repeat(8, 9px);
   grid-template-columns: repeat(20, 1fr);
-  background-color: #202024;
+  background-color: rgba(192, 192, 192, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
   border-radius: 20px;
 }
 
@@ -35,7 +37,7 @@
 .skill-category {
   grid-column: 5/13;
   grid-row: 4/5;
-  color: rgba(255, 255, 255, 0.3137254902);
+  color: rgba(255, 255, 255, 0.6235294118);
 }
 
 .see-more-button {

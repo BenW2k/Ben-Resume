@@ -6,7 +6,8 @@
   // max-height: 80px;
   grid-template-rows: repeat(8, 9px);
   grid-template-columns: repeat(20, 1fr);
-  background-color: variables.$secondary_background_colour;
+  background-color: rgba(variables.$secondary_background_colour, 0.1);
+  backdrop-filter: blur(10px);
   border-radius: 20px;
 }
 
