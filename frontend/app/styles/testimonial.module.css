@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "Kanetin";
+  src: url("../assets/fonts/Kanetin.otf");
+}
+@font-face {
+  font-family: "Inter-Light";
+  src: url("../assets/fonts/Inter-Light.ttf");
+}
+@font-face {
+  font-family: "Inter-Medium";
+  src: url("../assets/fonts/Inter-Medium.ttf");
+}
 .container {
   grid-template-columns: repeat(5, 20%);
   grid-template-rows: 80px 80px 80px;
@@ -18,14 +30,17 @@
   margin: 25px 10px 0px 10px;
   grid-column: 2/5;
   grid-row: 1/2;
-  font-size: 18px;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500;
 }
 
 .paragraph-2 {
-  margin: 0px;
+  margin: 0px 0px 0px 5px;
   grid-column: 2/5;
   grid-row: 2/3;
   font-size: 14px;
+  color: rgba(255, 255, 255, 0.6235294118);
 }
 
 .current-element {

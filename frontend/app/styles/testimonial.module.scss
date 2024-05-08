@@ -1,3 +1,5 @@
+@use "variables";
+
 .container {
   grid-template-columns: repeat(5, 20%);
   grid-template-rows: 80px 80px 80px;
@@ -19,14 +21,17 @@
   margin: 25px 10px 0px 10px;
   grid-column: 2 / 5;
   grid-row: 1 /2;
-  font-size: 18px;
+  font-size: 20px;
+  color: variables.$base_font_colour;
+  font-weight: 500;
 }
 
 .paragraph-2 {
-  margin: 0px;
+  margin: 0px 0px 0px 5px;
   grid-column: 2 / 5;
   grid-row: 2/ 3;
   font-size: 14px;
+  color: variables.$secondary_font_colour;
 }
 
 .current-element {
