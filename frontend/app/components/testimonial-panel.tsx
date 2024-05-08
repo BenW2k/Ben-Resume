@@ -10,12 +10,10 @@ export const Testimonial = () => {
         alt="dark-mode-logo"
         className={styles["test-image"]}
       />
-      <p className={styles["paragraph-1"]}>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-      </p>
+      <p className={styles["paragraph-1"]}>John Doe, John Doe & Co.</p>
       <p className={styles["paragraph-2"]}>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat
-        corporis laboriosam magnam quibusdam pariatur
+        Dummy testimonial to gauge how long the text needs to be, maybe 2
+        sentences or a single extended sentence?
       </p>
       <p className={styles["current-element"]}>2/4</p>
     </div>
