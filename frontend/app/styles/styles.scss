@@ -1,6 +1,8 @@
 @use "variables";
-
 body {
+  background-image: url("../assets/img/the-bg.png");
+  background-position: center;
+  background-size: contain;
   background-color: variables.$base_background_colour;
   font-family: variables.$base_font;
 }

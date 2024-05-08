@@ -11,11 +11,13 @@
   src: url("../assets/fonts/Inter-Medium.ttf");
 }
 body {
-  background-color: rgb(24, 24, 27);
+  background-image: url("../assets/img/the-bg.png");
+  background-position: center;
+  background-size: contain;
+  background-color: #18181b;
   font-family: Inter-Light, sans-serif;
-  color: #ffffff;
 }
 
 a {
   text-decoration: none;
-} /*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
