@@ -12,8 +12,8 @@ export const Testimonial = () => {
       />
       <p className={styles["paragraph-1"]}>John Doe, John Doe & Co.</p>
       <p className={styles["paragraph-2"]}>
-        Dummy testimonial to gauge how long the text needs to be, maybe 2
-        sentences or a single extended sentence?
+        "Dummy testimonial to gauge how long the text needs to be, maybe 2
+        sentences or a single extended sentence?"
       </p>
       <p className={styles["current-element"]}>2/4</p>
     </div>
