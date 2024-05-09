@@ -1,19 +1,8 @@
 import styles from "./styles/home.module.css";
 import Image from "next/image";
 import Button from "react-bootstrap/Button";
-import CreateSkill from "./components/skills-panel";
+// import CreateSkill from "./components/skills-panel";
 import {Testimonial} from "./components/testimonial-panel";
-import darkModeLogo from "./assets/img/figma-logo-white.svg";
-import frontendLight from "./assets/img/frontend-light.svg";
-import frontendDark from "./assets/img/frontend-dark.svg";
-import backendLight from "./assets/img/backend-light.svg";
-import backendDark from "./assets/img/backend-dark.svg";
-import machinelearningLight from "./assets/img/machine-learning-light.svg";
-import machinelearningDark from "./assets/img/machine-learning-dark.svg";
-import datascienceLight from "./assets/img/data-science-light.svg";
-import datascienceDark from "./assets/img/data-science-dark.svg";
-import otherLight from "./assets/img/other-light.png";
-import otherDark from "./assets/img/other-dark.svg";
 
 export default function Home() {
   return (
@@ -27,7 +16,7 @@ export default function Home() {
         delectus iusto asperiores, sapiente alias fuga eum officia. Praesentium
         repudiandae non accusamus, explicabo cupiditate quis!
       </p>
-      <div className={styles["skills-panel"]}>
+      {/* <div className={styles["skills-panel"]}>
         <CreateSkill
           skillName="Frontend Development"
           skillCategory="Frontend"
@@ -53,7 +42,7 @@ export default function Home() {
           skillCategory="Other"
           imageSource={otherLight}
         />
-      </div>
+      </div> */}
       <div className={styles["testimonial-panel"]}>
         <Testimonial />
       </div>
