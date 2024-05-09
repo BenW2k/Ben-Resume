@@ -11,6 +11,10 @@
   border-radius: 20px;
 }
 
+.tablet-container:hover {
+  background-color: rgba(variables.$secondary_background_colour, 0.6);
+}
+
 .skill-icon {
   height: 50px;
   width: auto;
