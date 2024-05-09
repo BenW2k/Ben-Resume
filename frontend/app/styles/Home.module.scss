@@ -95,10 +95,17 @@
 .current-work-button {
   padding: 15px 25px 15px 25px;
   border-radius: 30px;
-  background-color: rgb(95, 16, 185);
+  background-color: rgb(110, 21, 212);
   border: none;
   color: variables.$base_font_colour;
   // font-family: variabl.$base_font;
   font-size: 18px;
   font-weight: 500;
+}
+
+.highlighted-projects-panel {
+  grid-column: 2 / 3;
+  grid-row: 5 / 7;
+  background-color: variables.$base_background_colour;
+  color: variables.$base_font_colour;
 }
