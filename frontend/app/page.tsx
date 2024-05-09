@@ -70,6 +70,7 @@ export default function Home() {
           <Button className={styles["current-work-button"]}>See More! ↗</Button>
         </div>
       </div>
+      <div className={styles["highlighted-projects-panel"]}></div>
     </div>
   );
 }
