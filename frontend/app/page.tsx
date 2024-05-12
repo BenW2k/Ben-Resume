@@ -3,6 +3,7 @@ import Image from "next/image";
 import Button from "react-bootstrap/Button";
 // import CreateSkill from "./components/skills-panel";
 import {Testimonial} from "./components/testimonial-panel";
+import {SkillsPanel} from "./components/skills-panel";
 
 export default function Home() {
   return (
@@ -16,7 +17,9 @@ export default function Home() {
         delectus iusto asperiores, sapiente alias fuga eum officia. Praesentium
         repudiandae non accusamus, explicabo cupiditate quis!
       </p>
-      {/* <div className={styles["skills-panel"]}>
+      <div className="skills-panel">
+        <SkillsPanel />
+        {/* <div className={styles["skills-panel"]}>
         <CreateSkill
           skillName="Frontend Development"
           skillCategory="Frontend"
@@ -42,7 +45,8 @@ export default function Home() {
           skillCategory="Other"
           imageSource={otherLight}
         />
-      </div> */}
+  </div> */}
+      </div>
       <div className={styles["testimonial-panel"]}>
         <Testimonial />
       </div>
