@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Kanetin";
-  src: url("../assets/fonts/Kanetin.otf");
+  src: url("../../public/fonts/Kanetin.otf");
 }
 @font-face {
   font-family: "Inter-Light";
-  src: url("../assets/fonts/Inter-Light.ttf");
+  src: url("../../public/fonts/Inter-Light.ttf");
 }
 @font-face {
   font-family: "Inter-Medium";
-  src: url("../assets/fonts/Inter-Medium.ttf");
+  src: url("../../public/fonts/Inter-Medium.ttf");
 }
 .home-grid {
   display: grid;
@@ -109,4 +109,4 @@
   grid-row: 5/7;
   background-color: #18181b;
   color: #ffffff;
-}/*# sourceMappingURL=Home.module.css.map */
+}/*# sourceMappingURL=home.module.css.map */
