@@ -20,8 +20,10 @@
   grid-template-rows: repeat(8, 9px);
   grid-template-columns: repeat(20, 1fr);
   background-color: rgba(variables.$secondary_background_colour, 0.1);
+  border: 1px rgba(255, 255, 255, 0.103) solid;
   backdrop-filter: blur(10px);
   border-radius: 20px;
+  text-align: left;
 }
 
 .tablet-container:hover {
@@ -39,6 +41,7 @@
   grid-column: 5 / 15;
   grid-row: 3 / 4;
   color: variables.$base_font_colour;
+  font-size: 16px;
 }
 
 .skill-category {
@@ -49,7 +52,7 @@
 
 .see-more-button {
   grid-column: 16 / 20;
-  grid-row: 5 / 7;
+  grid-row: 4 / 6;
   border: none;
   background-color: transparent;
   font-size: 30px;
