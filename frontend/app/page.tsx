@@ -17,7 +17,7 @@ export default function Home() {
         delectus iusto asperiores, sapiente alias fuga eum officia. Praesentium
         repudiandae non accusamus, explicabo cupiditate quis!
       </p>
-      <div className="skills-panel">
+      <div className={styles["skills-panel"]}>
         <SkillsPanel />
         {/* <div className={styles["skills-panel"]}>
         <CreateSkill
