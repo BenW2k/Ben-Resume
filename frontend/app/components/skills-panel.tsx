@@ -1,20 +1,21 @@
+"use client";
+
 import styles from "../styles/skillsPanel.module.scss";
 import {useState} from "react";
 import Image from "next/image";
 import Button from "react-bootstrap/Button";
 import darkModeLogo from "./assets/img/figma-logo-white.svg";
-import frontendLight from "./assets/img/frontend-light.svg";
-import frontendDark from "./assets/img/frontend-dark.svg";
-import backendLight from "./assets/img/backend-light.svg";
-import backendDark from "./assets/img/backend-dark.svg";
-import machinelearningLight from "./assets/img/machine-learning-light.svg";
-import machinelearningDark from "./assets/img/machine-learning-dark.svg";
-import datascienceLight from "./assets/img/data-science-light.svg";
-import datascienceDark from "./assets/img/data-science-dark.svg";
-import otherLight from "./assets/img/other-light.png";
-import otherDark from "./assets/img/other-dark.svg";
+import frontendLight from "../assets/img/frontend-light.svg";
+import frontendDark from "../assets/img/frontend-dark.svg";
+import backendLight from "../assets/img/backend-light.svg";
+import backendDark from "../assets/img/backend-dark.svg";
+import machinelearningLight from "../assets/img/machine-learning-light.svg";
+import machinelearningDark from "../assets/img/machine-learning-dark.svg";
+import datascienceLight from "../assets/img/data-science-light.svg";
+import datascienceDark from "../assets/img/data-science-dark.svg";
+import otherLight from "../assets/img/other-light.png";
+import otherDark from "../assets/img/other-dark.svg";
 
-const [isSubcategory, setIsSubcategory] = useState(false);
 const test = "test";
 const categories = {
   frontend: {
@@ -164,6 +165,7 @@ function SkillTitle({name}: SkillTitleProps) {
   );
 }
 export function SkillsPanel() {
+  const [isSubcategory, setIsSubcategory] = useState(false);
   return (
     <div className={styles["skills-panel"]}>
       {isSubcategory ? (
