@@ -138,7 +138,7 @@ interface SkillProps {
 function CreateSkill(props: SkillProps) {
   const {skillName, skillCategory, imageSource} = props;
   return (
-    <div className={styles["tablet-container"]}>
+    <Button className={styles["tablet-container"]}>
       <Image
         src={imageSource}
         alt="skill-icon"
@@ -148,8 +148,8 @@ function CreateSkill(props: SkillProps) {
       />
       <p className={styles["skill-title"]}>{skillName}</p>
       {/* <p className={styles["skill-category"]}>{skillCategory}</p> */}
-      {/* <button className={styles["see-more-button"]}>↘</button> */}
-    </div>
+      {/* <button className={styles["see-more-button"]}>→</button> */}
+    </Button>
   );
 }
 interface SkillTitleProps {
