@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Kanetin";
-  src: url("../../../public/fonts/Kanetin.otf");
+  src: url("/public/fonts/Kanetin.otf");
 }
 @font-face {
   font-family: "Inter-Light";
-  src: url("../../../public/fonts/Inter-Light.ttf");
+  src: url("/public/fonts/Inter-Light.ttf");
 }
 @font-face {
   font-family: "Inter-Medium";
-  src: url("../../../public/fonts/Inter-Medium.ttf");
+  src: url("/public/fonts/Inter-Medium.ttf");
 }
 .container {
   grid-template-columns: repeat(5, 20%);
