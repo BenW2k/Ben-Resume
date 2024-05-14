@@ -4,11 +4,11 @@
 }
 @font-face {
   font-family: "Inter-Light";
-  src: url("../../public/fonts/Inter-Light.ttf");
+  src: url("../../../public/fonts/Inter-Light.ttf");
 }
 @font-face {
   font-family: "Inter-Medium";
-  src: url("../../public/fonts/Inter-Medium.ttf");
+  src: url("../../../public/fonts/Inter-Medium.ttf");
 }
 .home-grid {
   display: grid;
