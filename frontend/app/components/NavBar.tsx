@@ -1,4 +1,4 @@
-import styles from "../styles/navBar.module.css";
+import styles from "../styles/navbar/navBar.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import {NavDropdown} from "react-bootstrap";

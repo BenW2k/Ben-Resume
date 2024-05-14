@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "../styles/testimonial.module.css";
+import styles from "../testimonial/styles/testimonial.module.css";
 import stock_img from "../assets/img/data-science-light.svg";
 
 export const Testimonial = () => {
