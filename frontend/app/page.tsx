@@ -1,4 +1,4 @@
-import styles from "./styles/home/home.module.css";
+import styles from "./styles/pages/home/home.module.css";
 import Image from "next/image";
 import Button from "react-bootstrap/Button";
 // import CreateSkill from "./components/skills-panel";

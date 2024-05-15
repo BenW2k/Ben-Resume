@@ -1,6 +1,6 @@
 "use client";
 
-import styles from "../styles//skillsPanel/skillsPanel.module.scss";
+import styles from "../styles/components/skillsPanel/skillsPanel.module.scss";
 import {useState} from "react";
 import Image from "next/image";
 import Button from "react-bootstrap/Button";
