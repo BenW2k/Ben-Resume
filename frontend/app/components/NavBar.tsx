@@ -19,6 +19,7 @@ export const Navbar = () => {
         />
       </a>
       <Nav className={styles["nav-links"]}>
+        <Link href="/">Home</Link>
         <Link href="/about">About</Link>
         <Link href="/projects">Projects</Link>
         <Link
