@@ -11,9 +11,6 @@
   src: url("../public/fonts/Inter-Medium.ttf");
 }
 body {
-  background-image: url("../app/assets/img/the-bg.png");
-  background-position: center;
-  background-size: contain;
   background-color: #18181b;
   font-family: Inter-Light, sans-serif;
 }
