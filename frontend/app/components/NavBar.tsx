@@ -37,9 +37,41 @@ export const Navbar = () => {
         <Button className={styles["night-mode-button"]}>
           <IoMoonOutline className={styles["night-mode-moon"]} />
         </Button>
-        <Button href="/contact" className={styles["nav-button"]}>
+        <a className={styles["connect-button"]} href="#">
+          <span className={styles["connect-button__icon-wrapper"]}>
+            <svg
+              width="10"
+              className={styles["connect-button__icon-svg"]}
+              fill="none"
+              viewBox="0 0 14 15"
+            >
+              <path
+                fill="currentColor"
+                d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+              ></path>
+            </svg>
+
+            <svg
+              className={
+                styles[
+                  "connect-button__icon-svg  connect-button__icon-svg--copy"
+                ]
+              }
+              width="10"
+              fill="none"
+              viewBox="0 0 14 15"
+            >
+              <path
+                fill="currentColor"
+                d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+              ></path>
+            </svg>
+          </span>
+          Explore All
+        </a>
+        {/* <Button href="/contact" className={styles["nav-button"]}>
           <span>Contact Me ↗</span>
-        </Button>
+        </Button> */}
       </div>
     </div>
   );
