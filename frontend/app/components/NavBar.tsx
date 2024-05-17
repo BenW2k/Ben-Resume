@@ -52,11 +52,7 @@ export const Navbar = () => {
             </svg>
 
             <svg
-              className={
-                styles[
-                  "connect-button__icon-svg  connect-button__icon-svg--copy"
-                ]
-              }
+              className={styles["connect-button__icon-svg--copy"]}
               width="10"
               fill="none"
               viewBox="0 0 14 15"
@@ -67,7 +63,7 @@ export const Navbar = () => {
               ></path>
             </svg>
           </span>
-          Explore All
+          Contact Me
         </a>
         {/* <Button href="/contact" className={styles["nav-button"]}>
           <span>Contact Me ↗</span>
