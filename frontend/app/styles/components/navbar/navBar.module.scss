@@ -60,7 +60,7 @@
   background-color: rgb(255, 255, 255);
 }
 // #7808d0
-.contact-button {
+.connect-button {
   line-height: 1;
   text-decoration: none;
   display: inline-flex;
@@ -83,7 +83,7 @@
   width: 25px;
   height: 25px;
   position: relative;
-  color: #000000;
+  color: #111111;
   background-color: #fff;
   border-radius: 50%;
   display: grid;
@@ -92,11 +92,11 @@
 }
 
 .connect-button:hover {
-  background-color: #000;
+  background-color: #111111;
 }
 
 .connect-button:hover .connect-button__icon-wrapper {
-  color: #000;
+  color: #111111;
 }
 
 .connect-button__icon-svg--copy {
